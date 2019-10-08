@@ -31,7 +31,7 @@ All address format (legacy, p2sh-segwit and ___bech32___) supported.
 
 # README
 
-This miner with `power2b` support is based on [cpuminer-opt-sugarchain](https://github.com/cryptozeny/cpuminer-opt-sugarchain) by @cryptozeny.
+This miner with `power2b` support is based on [cpuminer-opt-sugarchain](https://github.com/cryptozeny/cpuminer-opt-sugarchain) by **cryptozeny**.
 
 cpuminer-opt is a fork of cpuminer-multi by TPruvot with optimizations
 imported from other miners developped by lucas Jones, djm34, Wolf0, pooler,
