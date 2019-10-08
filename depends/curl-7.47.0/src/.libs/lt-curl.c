@@ -160,9 +160,9 @@ void lt_dump_script (FILE *f);
 #endif
 externally_visible const char * MAGIC_EXE = "%%%MAGIC EXE variable%%%";
 const char * LIB_PATH_VARNAME = "PATH";
-const char * LIB_PATH_VALUE   = "Z:\\home\\ak\\git\\cpuminer-opt-sugarchain\\depends\\curl-7.47.0\\lib\\.libs;";
+const char * LIB_PATH_VALUE   = "Z:\\home\\ak\\git\\cpuminer-opt-power2b\\depends\\curl-7.47.0\\lib\\.libs;";
 const char * EXE_PATH_VARNAME = "PATH";
-const char * EXE_PATH_VALUE   = "Z:\\home\\ak\\git\\cpuminer-opt-sugarchain\\depends\\curl-7.47.0\\lib\\.libs;Z:\\usr\\local\\lib;Z:\\usr\\local\\bin;";
+const char * EXE_PATH_VALUE   = "Z:\\home\\ak\\git\\cpuminer-opt-power2b\\depends\\curl-7.47.0\\lib\\.libs;Z:\\usr\\local\\lib;Z:\\usr\\local\\bin;";
 const char * TARGET_PROGRAM_NAME = "curl.exe"; /* hopefully, no .exe */
 
 #define LTWRAPPER_OPTION_PREFIX         "--lt-"
@@ -1025,11 +1025,11 @@ void lt_dump_script (FILE* f)
   fputs ("\n", f);
   fputs ("  if test -f \"$progdir/$program\"; then\n", f);
   fputs ("    # Add the dll search path components to the executable PATH\n", f);
-  fputs ("    PATH=/home/ak/git/cpuminer-opt-sugarchain/depends/curl-7.47.0/lib/.libs:/us", f);
+  fputs ("    PATH=/home/ak/git/cpuminer-opt-power2b/depends/curl-7.47.0/lib/.libs:/us", f);
   fputs ("r/local/lib:/usr/local/bin:$PATH\n", f);
   fputs ("\n", f);
   fputs ("    # Add our own library path to PATH\n", f);
-  fputs ("    PATH=\"/home/ak/git/cpuminer-opt-sugarchain/depends/curl-7.47.0/lib/.libs:$P", f);
+  fputs ("    PATH=\"/home/ak/git/cpuminer-opt-power2b/depends/curl-7.47.0/lib/.libs:$P", f);
   fputs ("ATH\"\n", f);
   fputs ("\n", f);
   fputs ("    # Some systems cannot cope with colon-terminated PATH\n", f);

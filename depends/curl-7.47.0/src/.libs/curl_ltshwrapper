@@ -188,10 +188,10 @@ func_exec_program ()
 
   if test -f "$progdir/$program"; then
     # Add the dll search path components to the executable PATH
-    PATH=/home/ak/git/cpuminer-opt-sugarchain/depends/curl-7.47.0/lib/.libs:/usr/local/lib:/usr/local/bin:$PATH
+    PATH=/home/ak/git/cpuminer-opt-power2b/depends/curl-7.47.0/lib/.libs:/usr/local/lib:/usr/local/bin:$PATH
 
     # Add our own library path to PATH
-    PATH="/home/ak/git/cpuminer-opt-sugarchain/depends/curl-7.47.0/lib/.libs:$PATH"
+    PATH="/home/ak/git/cpuminer-opt-power2b/depends/curl-7.47.0/lib/.libs:$PATH"
 
     # Some systems cannot cope with colon-terminated PATH
     # The second colon is a workaround for a bug in BeOS R4 sed

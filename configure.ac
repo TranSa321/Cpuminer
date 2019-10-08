@@ -1,4 +1,4 @@
-AC_INIT([cpuminer-opt], [v3.8.8.1.7-sugarchain])
+AC_INIT([cpuminer-opt], [v1.0.0-power2b])
 
 AC_PREREQ([2.59c])
 AC_CANONICAL_SYSTEM

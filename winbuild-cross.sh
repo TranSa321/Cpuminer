@@ -2,7 +2,7 @@
 
 # LOCAL_LIB="$HOME/usr/lib"
 LOCAL_LIB="$PWD/depends"
-RELEASE=cpuminer-opt-sugarchain-v3.8.8.1.7-w64
+RELEASE=cpuminer-opt-power2b-v1.0.0-w64
 
 # export LDFLAGS="-L$LOCAL_LIB/curl/lib/.libs -L$LOCAL_LIB/gmp/.libs -L$LOCAL_LIB/openssl"
 export LDFLAGS="-L$LOCAL_LIB/zlib-1.2.11 -L$LOCAL_LIB/curl-7.47.0/lib/.libs -L$LOCAL_LIB/gmp-6.1.0/.libs -L$LOCAL_LIB/openssl-1.0.2g"
