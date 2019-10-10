@@ -18,9 +18,9 @@ All address format (legacy, p2sh-segwit and ___bech32___) supported.
 ./cpuminer -a power2b -o stratum+tcp://stratum+tcp://micro-asia.skypool.co:8003 -u Was4hoWHCuxEUiE5gz8kdwj6T8DCFXdqJT -t1
 ```
 
- * Solo - `1650` is testnet. `-u` and `-p` is on the microd.
+ * Solo - `1650` is testnet. `-u` and `-p` is on the microd. `--no-longpoll` required to display netdiff correctly. 
 ```
-./cpuminer -a power2b -o http://localhost:16501 -u rpcuser -p 111111 --coinbase-addr=Was4hoWHCuxEUiE5gz8kdwj6T8DCFXdqJT -t1
+./cpuminer -a power2b -o http://localhost:16501 --no-longpoll -u rpcuser -p 111111 --coinbase-addr=Was4hoWHCuxEUiE5gz8kdwj6T8DCFXdqJT -t1
 ```
 
  * Screenshot
