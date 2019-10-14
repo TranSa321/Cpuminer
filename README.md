@@ -15,7 +15,7 @@ All address format (legacy, p2sh-segwit and ___bech32___) supported.
 
  * Mining Pool - `-t1` using 1 thread.
 ```
-./cpuminer -a power2b -o stratum+tcp://stratum+tcp://micro-asia.skypool.co:8003 -u Was4hoWHCuxEUiE5gz8kdwj6T8DCFXdqJT -t1
+./cpuminer -a power2b -o stratum+tcp://micro-asia.skypool.co:8003 -u Was4hoWHCuxEUiE5gz8kdwj6T8DCFXdqJT -t1
 ```
 
  * Solo - `1650` is testnet. `-u` and `-p` is on the microd. `--no-longpoll` required to display netdiff correctly. 
